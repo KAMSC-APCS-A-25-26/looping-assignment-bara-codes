@@ -12,17 +12,18 @@ public class NumberTrianglePattern {
         {
             for (int x=1; x<=j; x++)
             {
-                System.out.print(x + " ");
+                if (x == length)
+                {
+                    System.out.print(x);
+                }
+                else
+                {
+                    System.out.print(x + " ");
+                }   
+               
             }
-            System.out.println(" ");
-            if (j == length)
-            {
-                System.out.print("");
-            }
-            else
-            {
-                System.out.print(" ");
-            }
+            System.out.println("");
+         
 
 
 
