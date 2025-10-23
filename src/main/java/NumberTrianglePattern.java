@@ -22,7 +22,7 @@ public class NumberTrianglePattern {
                 }   
                
             }
-            System.out.println("");
+            System.out.println();
          
 
 
